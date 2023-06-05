@@ -23,6 +23,12 @@ body {
 img {
     display: block;
 } 
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 .container {
     width: 100%;
     max-width: 1158px;
@@ -37,8 +43,12 @@ img {
 }
 .header-container {
     display: flex;
+    width: 1158px;
+    margin: 0 auto;
+     padding: 0 15px;
    
 }
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -49,6 +59,7 @@ img {
     color: #4D5AE5; 
     display: flex;
     margin-right: 76px;
+
 }
 .header-logo span{
     color:  #2e2f42;
@@ -77,6 +88,11 @@ img {
     font-style: normal;
      
 }
+.header-menu {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
 .header-addres {
     display: flex;
     margin-left: auto;
@@ -102,9 +118,14 @@ img {
 
 .main-content {
     background-color: #FFFFFF;
+    padding-top: 96px;
+    padding-bottom: 120px;
+
 }
 
-
+.header-menu-item {
+    padding: 24px 0;
+}
 .container-section {
     background-color: #2E2F42;
     padding-top: 188px;
@@ -113,6 +134,15 @@ img {
     padding-left: 472px;
     margin-bottom: 120px;
 
+}
+.main-content-div {
+
+}
+.main-content-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px'
 }
 .main-content-bt {
     font-family: "Roboto", sans-serif;
@@ -123,7 +153,20 @@ img {
     color: var(--pramary-accent-color); 
     background-color: var(--background-color);
     cursor: pointer;
-    padding: 356px 636px 188px 635px;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
+.main-content-photo {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.main-content-2 {
+    width: calc((100% - 48px) / 3);
+
+
 }
 .tex-content {
     display: flex;
@@ -139,10 +182,12 @@ img {
 .main-content-bt:hover {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 .main-content-bt:focus {
     color: #FFFFFF; 
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 .main-content-title {
     font-weight: 500;
@@ -150,6 +195,16 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    margin-bottom: 8px;
+}
+.content-title {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+    border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    border-top: none;
+
 
 }
 .main-content-text {
