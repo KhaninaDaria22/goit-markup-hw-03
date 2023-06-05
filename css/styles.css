@@ -29,6 +29,10 @@ ul {
     margin-bottom: 0;
     padding-left: 0;
 }
+p h1 h2 h3 h4 h5 h6 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
 .container {
     width: 100%;
     max-width: 1158px;
@@ -37,15 +41,13 @@ ul {
     margin: 0 auto;  
 }
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px ;
     border-bottom: 1px solid #e7e9fc; 
 }
 .header-container {
     display: flex;
     width: 1158px;
     margin: 0 auto;
-     padding: 0 15px;
+    align-items: center;
    
 }
 
@@ -75,11 +77,14 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--primary-text-color);
-    display: flex;
-    gap: 40px;
+    display: block;
     padding: 24px 0;
 }
+.header-menu-list {
+    display: flex;
+    gap: 40px;
 
+}
 .header-menu-link:hover,
 .header-menu-link:focus {
    color: #404bbf;
@@ -128,16 +133,11 @@ ul {
 }
 .container-section {
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-right: 472px;
-    padding-bottom: 292px;
-    padding-left: 472px;
-    margin-bottom: 120px;
+    
+
 
 }
-.main-content-div {
 
-}
 .main-content-list {
     display: flex;
     justify-content: center;
@@ -161,17 +161,12 @@ ul {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
 }
 .main-content-2 {
     width: calc((100% - 48px) / 3);
-
-
 }
 .tex-content {
-    display: flex;
-    padding: 120px 0;
-    width: calc((100% - 72px) / 4);
+
 }
 .visually-hidden {
     position: fixed;
@@ -244,6 +239,7 @@ ul {
     letter-spacing: 0.02em;
     color: var(--active-link-color);
     max-width: 496px;
+    margin-right: auto;
 
 }
 .section-title-bt {
@@ -273,9 +269,11 @@ ul {
 }
 .section-content-1 {
     padding: 120px 0;
+
 }
 .section-content {
     padding: 188px 0;
+
 }
 .main-strategy-title {
     font-weight: 500;
@@ -308,8 +306,6 @@ ul {
 .technologies-list {
     display: flex;
     gap: 24px; 
-    padding-top: 72px;
-    padding-bottom: 120px;
     padding-left: 0px;
     padding-right: 0px; 
     justify-content: center;
@@ -320,16 +316,15 @@ ul {
     
 }
 .main-content-item {
-    width: calc((100% - 72px) / 4);
+
 
 }
 .main-strategi {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 120px;
+   
 }
 .main-strategi-item {
     width: calc((100% - 72px) / 4);
@@ -346,7 +341,6 @@ ul {
     color: var(--primary-text-color);
     text-align: center;
     text-transform: capitalize;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 .team-title-list {
@@ -356,7 +350,6 @@ ul {
     align-items: center;
     gap: 32px;
     padding: 0px 0px;
-    padding-bottom: 120px;
     gap: 24px;
 }  
 .team-title-item {
@@ -375,7 +368,6 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    margin-top: 32px;
     margin-bottom: 8px;
     text-align: center;
 }
