@@ -189,9 +189,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--active-link-color);
     max-width: 496px;
-    margin-bottom: 48px; 
-    margin-left: 318px;
-    margin-right: 318px;
+
 }
 .section-title-bt {
     width: 169px;
@@ -308,7 +306,7 @@ img {
 }  
 .team-title-item {
     background-color: #FFFFFF;
-    width: calc(100%-72)/4;
+    width: calc((100%-72)/4);
     text-align: center; 
     border-radius: 0px 0px 4px 4px;
 }
@@ -347,5 +345,5 @@ img {
     white-space: nowrap;
     clip-path: inset(100%); 
     clip: rect(0 0 0 0); 
-    overflow: hidden; 
+     overflow: hidden; 
 }
