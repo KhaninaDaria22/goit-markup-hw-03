@@ -48,7 +48,7 @@ p h1 h2 h3 h4 h5 h6 {
     width: 1158px;
     margin: 0 auto;
     align-items: center;
-   
+
 }
 
 .header-logo {
@@ -131,7 +131,7 @@ p h1 h2 h3 h4 h5 h6 {
     padding: 24px 0;
 }
 .container-section {
-    background-color: #2E2F42;
+    
 }
 
 .main-content-list {
@@ -189,6 +189,7 @@ p h1 h2 h3 h4 h5 h6 {
     color: var(--primary-text-color);
     margin-bottom: 8px;
 }
+
 .content-title {
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
@@ -235,6 +236,7 @@ p h1 h2 h3 h4 h5 h6 {
     color: var(--active-link-color);
     max-width: 496px;
     margin-right: auto;
+    margin-left: auto;
 
 }
 .section-title-bt {
@@ -268,6 +270,8 @@ p h1 h2 h3 h4 h5 h6 {
 }
 .section-content {
     padding: 188px 0;
+    background-color: #2E2F42;
+
 
 }
 .main-strategy-title {
