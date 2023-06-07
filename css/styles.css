@@ -29,15 +29,8 @@ ul {
     margin-bottom: 0;
     padding-left: 0;
 }
-p 
-h1
-h2
-h3 
-h4 
-h5 
-h6 {
-    margin-bottom: 0;
-    margin-top: 0;
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
 .container {
     width: 100%;
@@ -243,6 +236,7 @@ h6 {
     max-width: 496px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 48px;
 
 }
 .section-title-bt {
